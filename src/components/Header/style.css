@@ -1,0 +1,38 @@
+.Header {
+    background-color: var(--blue);
+    color: white;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 100vh;
+    width: 100%
+}
+.Header_title {
+    color: var(--cyan);
+    font-family: 'Baumans', monospace;
+    font-weight: normal;
+    font-size: 60px;
+}
+.Header_subtitle{
+color:white;
+text-rendering: optimizeLegibility;
+-webkit-font-smoothing:antialiased;
+-moz-font-smoothing: grayscale;
+-o-font-smoothing:antialiased;
+font-family: 'Baumans', monospace;
+font-weight: normal;
+margin-bottom: 40px;
+font-size: 30px;
+}
+.Header_box___image {
+    
+}
+
+.Header_box {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    max-height: 100%;
+    max-width: 100%;
+
+}
